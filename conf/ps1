@@ -1,0 +1,1 @@
+export PS1="\h @ \[$(tput sgr0)\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]\[\033[38;5;40m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)) > \[$(tput sgr0)\]"
