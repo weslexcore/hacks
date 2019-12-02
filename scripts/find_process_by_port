@@ -1,0 +1,4 @@
+pp () {
+  port=$1
+  sudo lsof -n -i :$port | grep LISTEN
+}
