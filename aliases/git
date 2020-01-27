@@ -1,2 +1,5 @@
 alias gco="git checkout"
 alias gcob="git checkout -b"
+alias stash="git stash"
+alias unstash="git stash pop"
+alias update="git pull origin \$(git branch --show-current)"
