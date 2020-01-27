@@ -1,0 +1,5 @@
+# Source all files in scripts
+for f in ~/hacks/scripts/*; do source $f; done
+for f in ~/conf/*; do source $f; done
+for f in ~/hacks/aliases/*; do source $f; done
+for f in ~/hacks/conf/*; do source $f; done

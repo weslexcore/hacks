@@ -1,7 +1,7 @@
 # hacks
 Scripts and conf that make my life easier
 
-Place project at root and place this into `.bash_profile`
+Place project at root and place this into `.bash_profile` (found in .bash_profile.template)
 ```
 # Source all files in scripts
 for f in ~/hacks/scripts/*; do source $f; done
